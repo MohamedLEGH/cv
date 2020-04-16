@@ -1,4 +1,4 @@
-all: mohamedlegherabafr.pdf
+all: output/mohamedlegherabafr.pdf
 
-mohamedlegherabafr.pdf: mohamedlegherabafr.tex
-	pdflatex mohamedlegherabafr.tex
+output/mohamedlegherabafr.pdf: src/mohamedlegherabafr.tex
+	pdflatex -output-directory output/ src/mohamedlegherabafr.tex 
