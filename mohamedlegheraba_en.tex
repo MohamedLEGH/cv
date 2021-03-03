@@ -1,4 +1,7 @@
 \documentclass[10pt]{article}
+
+\usepackage[document]{ragged2e}
+
 % for pdflatex
 \usepackage[utf8]{inputenc}
 % for hyperlink
@@ -36,19 +39,17 @@
 
 \begin{minipage}[t]{0.80\textwidth}
 \textbf{\Large{Mohamed Amine LEGHERABA}}\\
-\vspace{1ex}\\
-26 years old\\
+\vspace{4ex}26 years old\\
 92 bis rue Rouget de Lisle, Bezons, France\\
 \href{tel:+33630829000}{+33 6 30 82 90 00}\\
 \href{mailto:mlegheraba@protonmail.com}{mlegheraba@protonmail.com}\\
 \href{https://github.com/MohamedLEGH}{github.com/MohamedLEGH}\\
-\vspace{1ex}\\
-{\bf French}: native\\
+\vspace{5ex}{\bf French}: native\\
 {\bf Anglais}: fluent (TOIEC: 935)\\
 \end{minipage}
 \begin{minipage}[t]{0.20\textwidth}
 \vspace{-3ex}
-\includegraphics[width=4cm]{figures/Legheraba-Mohamed.jpg}
+\includegraphics[width=4cm]{figures/Legheraba-Mohamed-White.jpg}
 \end{minipage}
 % to make maketitle work without begin of page
 {\let\newpage\relax\maketitle}
@@ -62,7 +63,7 @@
 \vspace{2ex}
 
 \begin{tabular}{L!{\VRule}R}
-\textbf{\textit{2015--2018}} \hspace{2ex} \includegraphics[width=1.4cm]{figures/Logo_Reseau_Polytech.png} & \textbf{Engineering degree, Polytech Sorbonne}, speciality \textit{Applied mathematics and computer science}: Statistics, Differential equations, Programmation, Data structures, Parallelism.\\[0.75cm]
+\textbf{\textit{2015--2018}} \hspace{1.5ex} \includegraphics[width=1.4cm]{figures/Logo_Reseau_Polytech.png} & \textbf{Engineering degree, Polytech Sorbonne}, speciality \textit{Applied mathematics and computer science}: Statistics, Differential equations, Programmation, Data structures, Parallelism.\\[0.75cm]
 \textbf{\textit{2017 (Winter)}} \hspace{.5ex} \includegraphics[width=.85cm]{figures/TU.png} & \textbf{Erasmus semester at TU Delft}, Netherlands: Graph theory, Cryptography, Blockchain, Cloud Computing, Data Visualization.\\[0.75cm]
 \textbf{\textit{2013--2015}} \hspace{5ex} \includegraphics[width=.85cm]{figures/PEIP_logo.png}  & \textbf{Polytech Sorbonne},  \textit{PeiP} (Parcours des écoles d'ingénieurs Polytech): Maths, Computer Science, Physics, Chemistry, Mechanics.\\[0.75cm]
 \textbf{\textit{2013}} & \textbf{Baccalaureate}, in Science, passed with honours, Lycée Chaptal. \\
@@ -77,25 +78,22 @@
 \begin{longtable}{L!{\VRule}R}
 \textbf{\textit{Since April 2019}}& \includegraphics[width=2cm]{figures/SIA_logo.png} \hspace{0.2cm} {\bf Blockchain \& Data Science Engineer, Sia Partners, ongoing.} \\[0.25cm]
 
-%& \tabitem \small{\textbf{Development of blockchain applications for Sia Partners customers} (Banque de France experiments on CBDCs, Corda network for an asset manager, mobile payment application in cryptocurrencies, ...)}
-
 & \tabitem \small{\textbf{CBDC experimentations at Banque de France} (member of the blockchain unit as a blockchain technical expert, technical lead for 1 experimentation, technical support for 2 other experimentations, training for other team members about Blockchain and DevOps, implementation of the CI/CD pipelines)}
 
 \\[0.20cm]
 & \tabitem \small{\textbf{Monitoring of trading limits using a blockchain network for an investment fund} (blockchain expert, implementation of a private blockchain network, development of smart contracts and of an oracle, code review, supervision, testing) \it{Mission found and won by myself thanks to my network}}
 
 \\[0.20cm]
-& \tabitem \small{\textbf{Creation of a payment mobile application in cryptocurrencies for a French retail chain} (blockchain expert, development of a secure payment interface in cryptocurrencies, development of a back office application and a cold wallet for the secure management of cryptocurrencies and their exchange for euros)}
+& \tabitem \small{\textbf{Creation of a payment mobile application in cryptocurrencies for a French retailer} (blockchain expert, development of a secure payment interface in cryptocurrencies, development of a back office application and a cold wallet for the secure management of cryptocurrencies and their exchange for euros)}
 
 \\[0.20cm]
-& \tabitem \small{\textbf{Clinical trials: Registration of patient consent on the blockchain with digital signatures} (implementation of an interface to collect the digital signatures of the patient and the doctor, sending of the hash of the signatures on the Ethereum network, web interface to check the validity of the registration)}
-
-
-\\[0.20cm]
-& \tabitem \small{\textbf{Decibel project: Certification of the decibel level on the Ethereum network} (IoT \& Blockchain, reception of decibel data with a bluetooth socket, transfert of the information on the blockchain when the value exceeds the limit, display of values in real time on the web interface)}
+& \tabitem \small{\textbf{Recording of patient consent on the blockchain with digital signatures for a public sector actor} (in the context of clinical trials, implementation of an interface to collect the digital signatures of the patient and the doctor, sending of the hash of the signatures on the Ethereum network, web interface to check the validity of the registration)}
 
 \\[0.20cm]
-& \tabitem \small{\textbf{Smart Data Quality: Software to clean and visualize data to help the consultant during his mission} (development of data science algorithms in Python, optimization of code, deployement on AWS infrastructure, ...)}
+& \tabitem \small{\textbf{Certification of the decibel level on the Ethereum network for a transportation operator} (IoT \& Blockchain, reception of decibel data with a Bluetooth socket, transfer of the information on the blockchain when the value exceeds the limit, display of values in real time on the web interface)}
+
+\\[0.20cm]
+& \tabitem \small{\textbf{Smart Data Quality: Software to clean and visualize data to help the consultant during his mission} (development of data science algorithms in Python, optimization of code, deployment on AWS infrastructure, ...)}
 
 \\[0.20cm]
 & \tabitem \small{\textbf{Heka Project: \href{https://heka.sia-partners.com/en}{Software factory} for Data Science applications} (development of microservices in Python and React, continuous deployment on the Kubernetes infrastructure, ...)}
@@ -114,7 +112,7 @@
 & \small{Watch around Blockchain technologies, task automation with Airflow, application containerisation with Docker and system supervision with Tableau Server.} \\
 
 \\[0.20cm]
-\textbf{\textit{2017}}& {\bf Developpement during multiples ICO, of which 2 have raised more than \$5M}.\\
+\textbf{\textit{2017}}& {\bf Development during multiples ICO, of which 2 have raised more than \$5M}.\\
 & \small{Development of smart contracts for the token of the ICOs, building of a security protocol to store the tokens, creation of scripts to interact with the Ethereum network.} \\
 
 
