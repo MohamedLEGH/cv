@@ -25,3 +25,5 @@ jobs:
       with:
         name: mohamedlegheraba_fr
         path: build/mohamedlegheraba_fr.pdf
+        name: mohamedlegheraba_en
+        path: build/mohamedlegheraba_en.pdf
