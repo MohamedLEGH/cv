@@ -19,3 +19,9 @@ jobs:
       
     - name: Build
       run: make
+
+    - name: Upload output file
+      uses: actions/upload-artifact@v3
+      with:
+        name: mohamedlegheraba_fr
+        path: build/mohamedlegheraba_fr.pdf
