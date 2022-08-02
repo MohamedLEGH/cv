@@ -13,6 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+
+    - name: Install
+      run: apt-get install texlive-latex-base 
       
     - name: Build
       run: make
