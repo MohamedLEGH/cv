@@ -25,5 +25,7 @@ jobs:
       with:
         name: mohamedlegheraba_fr
         path: build/mohamedlegheraba_fr.pdf
+      uses: actions/upload-artifact@v3
+      with:
         name: mohamedlegheraba_en
         path: build/mohamedlegheraba_en.pdf
