@@ -20,11 +20,12 @@ jobs:
     - name: Build
       run: make
 
-    - name: Upload output file
+    - name: Upload FR
       uses: actions/upload-artifact@v3
       with:
         name: mohamedlegheraba_fr
         path: build/mohamedlegheraba_fr.pdf
+    - name: Upload EN
       uses: actions/upload-artifact@v3
       with:
         name: mohamedlegheraba_en
