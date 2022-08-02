@@ -17,8 +17,5 @@ jobs:
     - name: Install
       run: sudo apt-get install texlive-latex-base texlive-latex-recommended
       
-    - rame: Install dependencies
-      run: tlmgr install ragged2e
-      
     - name: Build
       run: make
