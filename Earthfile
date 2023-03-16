@@ -4,7 +4,7 @@ WORKDIR /cv_build
 
 BUILD_PDF:
 	COMMAND
-    ARG file='mohamedlegheraba_fr'
+	ARG file='mohamedlegheraba_fr'
 	RUN tlmgr update --self && tlmgr install ragged2e footmisc enumitem
 	COPY figures figures
 	COPY ${file}.tex .
