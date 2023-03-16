@@ -18,8 +18,8 @@ build-en-classic:
 	DO +BUILD_PDF --file='mohamedlegheraba_en'
 
 build-classic:
-	DO +BUILD_PDF --file='mohamedlegheraba_fr'
-	DO +BUILD_PDF --file='mohamedlegheraba_en'
+	BUILD +build-fr-classic
+	BUILD +build-en-classic
 
 build-fr-onepage:
 	DO +BUILD_PDF --file='mohamedlegheraba_fr_onepage'
@@ -27,13 +27,10 @@ build-fr-onepage:
 build-en-onepage:
 	DO +BUILD_PDF --file='mohamedlegheraba_en_onepage'
 
-build-one-page:
-	DO +BUILD_PDF --file='mohamedlegheraba_fr_onepage'
-	DO +BUILD_PDF --file='mohamedlegheraba_en_onepage'
+build-onepage:
+	BUILD +build-fr-onepage
+	BUILD +build-en-onepage
 
 build:
-	DO +BUILD_PDF --file='mohamedlegheraba_fr'
-	DO +BUILD_PDF --file='mohamedlegheraba_en'
-	DO +BUILD_PDF --file='mohamedlegheraba_fr_onepage'
-	DO +BUILD_PDF --file='mohamedlegheraba_en_onepage'
-	
+	BUILD +build-classic
+	BUILD +build-onepage	
