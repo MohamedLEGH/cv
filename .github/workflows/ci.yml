@@ -18,7 +18,7 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Build
-      run: earthly +build
+      run: earthly --ci +build
 
     - name: Upload FR
       uses: actions/upload-artifact@v3
