@@ -1,5 +1,5 @@
 VERSION 0.7
-FROM pandoc/latex:3
+FROM texlive/texlive
 WORKDIR /cv_build
 
 BUILD_PDF:
