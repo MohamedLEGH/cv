@@ -62,7 +62,7 @@ language = "en"
     # custom_ai_prompt_text = "Custom prompt text here..."  # Uncomment to add a custom ATS prompt string
 
     # Hidden keywords injected into PDF metadata for ATS keyword matching (invisible to readers)
-    injected_keywords_list = ["Data Analyst", "GCP", "Python", "SQL", "Tableau"]
+    injected_keywords_list = ["Federated Learning", "Blockchain", "Peer-to-Peer", "Deep Learning", "Machine Learning", "Python", "DevOps", "Smart Contracts", "Kubernetes", "Cybersecurity", "Distributed Systems", "Research", "Gossip Protocols", "PyTorch"]
 
 [personal]
     # Your first name, displayed in the header
