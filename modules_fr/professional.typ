@@ -11,7 +11,6 @@
   date: [Fév. 2023 - Présent],
   location: [Paris],
   description: list(
-    [Enseignement à Polytech Sorbonne],
     [Recherche scientifique : État de l'art sur l'apprentissage fédéré, 3 articles publiés dans des conférences internationales, 3 articles soumis à un journal et une conférence, création de 2 algorithmes (Elevator et HEAL), modélisation mathématique en cours et implémentation sur réseaux pair-à-pair, participation à des écoles d'été, d'hiver et journées thématiques],
     [Encadrement : 3 stagiaires de 6 mois, 1 stagiaire de 2 mois, projet industriel (5 étudiants MAIN5 sur un an avec une entreprise), projet d'initiation (4 étudiants MAIN3 sur 3 mois)],
     [Collaboration académique : Article en commun avec un ingénieur de recherche, projet en cours avec Alstom],

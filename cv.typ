@@ -29,6 +29,7 @@
 #import-modules((
   "education",
   "professional",
+  "teaching",
   "skills",
   "projects",
   "publications",

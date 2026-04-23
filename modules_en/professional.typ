@@ -11,7 +11,6 @@
   date: [Feb. 2023 - Present],
   location: [Paris],
   description: list(
-    [Teaching at Polytech Sorbonne],
     [Scientific research: State of the art on federated learning, 3 papers published in international conferences, 3 papers submitted to a journal and a conference, creation of 2 algorithms (Elevator and HEAL), ongoing mathematical modeling and implementation on peer-to-peer networks, participation in summer/winter schools and thematic days],
     [Supervision: 3 six-month interns, 1 two-month intern, industrial project (5 MAIN5 students working one year with a company), initiation project (4 MAIN3 students working 3 months on a research project)],
     [Academic collaboration: Co-authored paper with a research engineer, ongoing collaboration project with Alstom],
