@@ -18,7 +18,7 @@
 #cv-entry(
   title: [Diplôme d'Ingénieur],
   society: [Polytech Sorbonne],
-  logo: image("../assets/logos/Logo_Reseau_Polytech.svg"),
+  logo: image("../assets/logos/logo_polytech.jpg"),
   date: [2015 - 2018],
   location: [Paris],
   description: list(
