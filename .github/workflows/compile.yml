@@ -17,9 +17,6 @@ jobs:
         run: |
           typst compile cv.typ cv_en.pdf
           typst compile cv.typ cv_fr.pdf --input language=fr
-          typst compile cv.typ cv_de.pdf --input language=de
-          typst compile cv.typ cv_it.pdf --input language=it
-          typst compile cv.typ cv_zh.pdf --input language=zh
 
       - name: Compile cover letter (English)
         run: typst compile letter.typ letter_en.pdf
