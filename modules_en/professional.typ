@@ -11,11 +11,12 @@
   date: [Feb. 2023 - Present],
   location: [Paris],
   description: list(
-    [Scientific research: State of the art on federated learning, 3 papers published in international conferences, 3 papers submitted to a journal and a conference, creation of 2 algorithms (Elevator and HEAL), ongoing mathematical modeling and implementation on peer-to-peer networks, participation in summer/winter schools and thematic days],
-    [Supervision: 3 six-month interns, 1 two-month intern, industrial project (5 MAIN5 students working one year with a company), initiation project (4 MAIN3 students working 3 months on a research project)],
+    [Scientific research: State of the art on federated learning, 5 papers published in international conferences, 2 papers in a French conference, 1 paper submitted to a journal, creation of 4 algorithms (Elevator, HEAL, Lift, FLAIR), mathematical modeling completed and implementation on peer-to-peer networks, participation in summer/winter schools and thematic days],
+    [Research internship: 3 months at NII (National Institute of Informatics) in Tokyo, Japan, collaboration with an international team of researchers],
+    [Supervision: 4 interns, industrial project (5 MAIN5 students working one year with a company), initiation project (4 MAIN3 students working 3 months on a research project)],
     [Academic collaboration: Co-authored paper with a research engineer, ongoing collaboration project with Alstom],
-    [Project management: Monitoring of the European NEMO project, organization of the 2024 LIP6 PhD students' day],
-    [Presentations: International conferences (NCA, AINA), GDR RSD summer school 2023 and winter school 2024, workshops at LIP6 and LINCS],
+    [Project management: Monitoring of the European NEMO and CyberNEMO projects, organization of the 2024 LIP6 PhD students' day],
+    [Presentations: International conferences (NCA, AINA, CANDAR), GDR RSD summer school 2023 and winter school 2024, workshops at LIP6 and LINCS],
   ),
 )
 

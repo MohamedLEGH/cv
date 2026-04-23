@@ -11,11 +11,12 @@
   date: [Fév. 2023 - Présent],
   location: [Paris],
   description: list(
-    [Recherche scientifique : État de l'art sur l'apprentissage fédéré, 3 articles publiés dans des conférences internationales, 3 articles soumis à un journal et une conférence, création de 2 algorithmes (Elevator et HEAL), modélisation mathématique en cours et implémentation sur réseaux pair-à-pair, participation à des écoles d'été, d'hiver et journées thématiques],
-    [Encadrement : 3 stagiaires de 6 mois, 1 stagiaire de 2 mois, projet industriel (5 étudiants MAIN5 sur un an avec une entreprise), projet d'initiation (4 étudiants MAIN3 sur 3 mois)],
+    [Recherche scientifique : État de l'art sur l'apprentissage fédéré, 5 articles publiés dans des conférences internationales, 2 articles dans une conférence française, 1 article soumis à un journal, création de 4 algorithmes (Elevator, HEAL, Lift, FLAIR), modélisation mathématique réalisée et implémentation sur réseaux pair-à-pair, participation à des écoles d'été, d'hiver et journées thématiques],
+    [Stage de recherche : 3 mois au NII (National Institute of Informatics) à Tokyo, Japon, collaboration avec une équipe de chercheurs internationaux],
+    [Encadrement : 4 stagiaires, projet industriel (5 étudiants MAIN5 sur un an avec une entreprise), projet d'initiation (4 étudiants MAIN3 sur 3 mois)],
     [Collaboration académique : Article en commun avec un ingénieur de recherche, projet en cours avec Alstom],
-    [Gestion de projets : Suivi du projet européen NEMO, organisation de la journée des doctorants du LIP6 en 2024],
-    [Présentations : Conférences internationales (NCA, AINA), école d'été 2023 et d'hiver 2024 du GDR RSD, ateliers au LIP6 et au LINCS],
+    [Gestion de projets : Suivi des projets européens NEMO et CyberNEMO, organisation de la journée des doctorants du LIP6 en 2024],
+    [Présentations : Conférences internationales (NCA, AINA, CANDAR), école d'été 2023 et d'hiver 2024 du GDR RSD, ateliers au LIP6 et au LINCS],
   ),
 )
 
