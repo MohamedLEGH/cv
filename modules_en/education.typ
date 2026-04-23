@@ -5,42 +5,46 @@
 #cv-section("Education")
 
 #cv-entry(
-  title: [Master of Data Science],
-  society: [University of California, Los Angeles],
-  date: [2018 - 2020],
-  location: [USA],
-  logo: image("../assets/logos/ucla.png"),
+  title: [PhD],
+  society: [Sorbonne Université, LIP6],
+  logo: image("../assets/logos/LogoLIP6.png"),
+  date: [2023 - 2026],
+  location: [Paris],
   description: list(
-    [Thesis: Predicting Customer Churn in Telecommunications Industry using Machine Learning Algorithms and Network Analysis],
-    [Course: Big Data Systems and Technologies #h-bar() Data Mining and Exploration #h-bar() Natural Language Processing],
+    [Thesis: Peer-to-peer protocols for efficient and resilient decentralized learning],
   ),
 )
 
 #cv-entry(
-  title: [Bachelors of Science in Computer Science],
-  society: [University of California, Los Angeles],
-  date: [2014 - 2018],
-  location: [USA],
-  logo: image("../assets/logos/ucla.png"),
+  title: [Engineering Degree],
+  society: [Polytech Sorbonne],
+  logo: image("../assets/logos/Logo_Reseau_Polytech.png"),
+  date: [2015 - 2018],
+  location: [Paris],
   description: list(
-    [Thesis: Exploring the Use of Machine Learning Algorithms for Predicting Stock Prices: A Comparative Study of Regression and Time-Series Models],
-    [Course: Database Systems #h-bar() Computer Networks #h-bar() Software Engineering #h-bar() Artificial Intelligence],
-    [GPA: 3.8/4.0, Magna Cum Laude],
+    [Major in Applied Mathematics and Digital Computer Science],
+    [Coursework: Statistics #h-bar() Differential Equations #h-bar() Programming #h-bar() Data Structures #h-bar() Parallelism],
   ),
-  tags: ("Computer Science", "Machine Learning", "Statistics"),
 )
 
-// Example with multiple date periods (study abroad program)
 #cv-entry(
-  title: [Exchange Student Program],
-  society: [Technical University of Munich],
-  date: list(
-    [Fall 2016],
-    [Spring 2017],
-  ),
-  location: [Germany],
+  title: [Erasmus Semester],
+  society: [TU Delft],
+  logo: image("../assets/logos/TU.png"),
+  date: [Winter 2017],
+  location: [Netherlands],
   description: list(
-    [Specialized courses in Advanced Algorithms and Data Structures],
-    [Research project on Distributed Computing Systems],
+    [Coursework: Graph Theory #h-bar() Cryptography #h-bar() Blockchain #h-bar() Cloud Computing #h-bar() Data Visualization],
+  ),
+)
+
+#cv-entry(
+  title: [PeiP (Polytech Engineering School Pathway)],
+  society: [Polytech Sorbonne],
+  logo: image("../assets/logos/PEIP_logo.png"),
+  date: [2013 - 2015],
+  location: [Paris],
+  description: list(
+    [Coursework: Mathematics #h-bar() Computer Science #h-bar() Physics #h-bar() Chemistry #h-bar() Mechanics],
   ),
 )

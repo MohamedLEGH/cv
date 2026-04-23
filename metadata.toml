@@ -5,7 +5,7 @@ language = "en"
 
 [layout]
     # Accent color used for section titles, icons, and highlights in the rendered PDF
-    # Preset: skyblue, red, nephritis, concrete, darknight — or any hex like "#1E90FF"
+    # Preset: skyblue, red, nephritis, concrete, darknight - or any hex like "#1E90FF"
     awesome_color = "skyblue"
 
     # Controls vertical spacing; increase to spread out sections/entries, decrease to compact
@@ -82,47 +82,45 @@ language = "en"
         # Shown as envelope icon in header; auto-links to mailto:<value>
         email = "mlegheraba@protonmail.com"
         # Shown as clickable icon in header; auto-links to linkedin.com/in/<value>
-        linkedin = "mohamed-amine-legheraba-b4b771119"
+        # linkedin = "mohamed-amine-legheraba-b4b771119"
         # Shown as clickable icon in header; auto-links to gitlab.com/<value>
-        gitlab = "yunanwg"
+        # gitlab = "yunanwg"
         # Shown as clickable globe icon in header; auto-links to https://<value>
-        homepage = "johndoe.dev"
+        # homepage = "johndoe.dev"
         # Shown as ORCID icon in header; auto-links to orcid.org/<value>
-        orcid = "0009-0007-4613-7220"
+        # orcid = "0009-0007-4613-7220"
         # researchgate = "John-Doe"  # Shown as a clickable ResearchGate icon in header
         # Shown as map-marker icon in header; displayed as plain text (no link)
-        location = "Ile de France"
+        # location = "Ile de France"
         # extraInfo = "Available for remote work"  # Shown as extra text with an info icon in header
         # Insert a line break in the header info, splitting icons across two lines
         #linebreak = ""
 
         # Custom info with awesome icon
-        [personal.info.custom-1]
-            awesomeIcon = "graduation-cap" # See https://typst.app/universe/package/fontawesome/
-            # Display text shown next to the icon in the header
-            text = "PhD in Data Science"
-            # URL the icon/text links to; omit for non-clickable entries
-            link = "https://www.example.com"
+        # [personal.info.custom-1]
+            # awesomeIcon = "linkedin-in"
+            # text = "LinkedIn"
+            # link = "https://www.linkedin.com/in/mohamed-amine-legheraba-b4b771119"
 
         # Custom info with image icon
         # To use a custom image icon, pass it via custom-icons in cv.typ:
         #   custom-icons: ("custom-2": image("assets/my-icon.png"))
-        [personal.info.custom-2]
-            awesomeIcon = "certificate"
-            text = "AWS Certified"
-            link = "https://aws.amazon.com/certification/"
+        # [personal.info.custom-2]
+            # awesomeIcon = "certificate"
+            # text = "AWS Certified"
+            # link = "https://aws.amazon.com/certification/"
 
 
 # Add a [lang.xx] section for each language you support
 # Each section must contain header_quote, cv_footer, and letter_footer
 [lang.en]
     # Italic tagline displayed below your name and contact info
-    header_quote = "Experienced Data Analyst looking for a full time job starting from now"
+    header_quote = "PhD Student in Artificial Intelligence & Computer Engineer"
     cv_footer = "Curriculum vitae"
     letter_footer = "Cover letter"
 
 [lang.fr]
-    header_quote = "Analyste de données expérimenté à la recherche d'un emploi à temps plein disponible dès maintenant"
+    header_quote = "Doctorant en Intelligence Artificielle & Ingénieur en Informatique"
     cv_footer = "Résumé"
     letter_footer = "Lettre de motivation"
 

@@ -7,9 +7,12 @@
 #cv-publication(
   bib: bibliography("../assets/publications.bib"),
   key-list: (
-    "smith2020",
-    "jones2021",
-    "wilson2022",
+    "legheraba2024brief",
+    "legheraba2024emergent",
+    "legheraba2025noeuds",
+    "legheraba2025lift",
+    "legheraba2025heal",
+    "legheraba2025etoiles",
   ),
   ref-style: "apa",
 )

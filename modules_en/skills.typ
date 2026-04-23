@@ -1,43 +1,94 @@
 // Imports
-#import "@preview/brilliant-cv:3.3.0": cv-section, cv-skill, cv-skill-with-level, cv-skill-tag, h-bar
+#import "@preview/brilliant-cv:3.3.0": cv-section, cv-skill, h-bar
 
 
-#cv-section("Skills")
+#cv-section("Technical Skills")
 
-#cv-skill-with-level(
-  type: [Languages],
-  level: 4,
-  info: [English (Native) #h-bar() French (Fluent) #h-bar() Chinese (Conversational)],
+#cv-skill(
+  type: [Blockchain],
+  info: [Ethereum #h-bar() Corda #h-bar() Hyperledger #h-bar() Bitcoin #h-bar() Tezos],
 )
 
-#cv-skill-with-level(
+#cv-skill(
+  type: [Smart Contracts],
+  info: [Solidity #h-bar() Ligo #h-bar() SmartPy #h-bar() Chaincodes],
+)
+
+#cv-skill(
+  type: [Mathematics],
+  info: [Cryptography #h-bar() Statistics #h-bar() Graphs #h-bar() Mathematical proofs],
+)
+
+#cv-skill(
   type: [Programming],
-  level: 5,
-  info: [Python #h-bar() SQL #h-bar() R],
+  info: [Python #h-bar() JavaScript #h-bar() Ocaml #h-bar() C/C++ #h-bar() Kotlin #h-bar() Java #h-bar() Julia],
 )
 
 #cv-skill(
-  type: [Tech Stack],
-  info: [Tableau #h-bar() Snowflake #h-bar() AWS #h-bar() Docker #h-bar() Git],
+  type: [Frameworks],
+  info: [ReactJS #h-bar() Node.js #h-bar() Ethers.js #h-bar() Flask #h-bar() Web3.py #h-bar() PyTorch #h-bar() Numpy],
 )
 
 #cv-skill(
-  type: [Frameworks & Libraries],
-  info: [Pandas #h-bar() NumPy #h-bar() Scikit-learn #h-bar() TensorFlow #h-bar() FastAPI],
-)
-
-// Skill tags example
-#cv-skill(
-  type: [Certifications],
-  info: [
-    #cv-skill-tag([AWS Certified])
-    #cv-skill-tag([Google Analytics])
-    #cv-skill-tag([Tableau Desktop])
-    #cv-skill-tag([Scrum Master])
-  ],
+  type: [Databases],
+  info: [PostgreSQL #h-bar() MySQL #h-bar() SQLAlchemy],
 )
 
 #cv-skill(
-  type: [Personal Interests],
-  info: [Swimming #h-bar() Cooking #h-bar() Reading #h-bar() Photography],
+  type: [Protocols],
+  info: [Lightning Network #h-bar() IPFS #h-bar() TCP/IP #h-bar() Peer-to-peer protocols #h-bar() Gossip protocols],
+)
+
+#cv-skill(
+  type: [DevOps],
+  info: [Kubernetes #h-bar() Gitlab CI/CD #h-bar() GCP #h-bar() Terraform],
+)
+
+#cv-skill(
+  type: [Tools],
+  info: [Shell #h-bar() Git #h-bar() Docker #h-bar() VS Code #h-bar() PowerPoint #h-bar() SLURM],
+)
+
+#cv-skill(
+  type: [Methodology],
+  info: [Agile #h-bar() REST APIs #h-bar() Microservices],
+)
+
+#cv-skill(
+  type: [Research],
+  info: [Scientific research #h-bar() Paper writing #h-bar() Conference presentations #h-bar() Federated Learning #h-bar() Machine Learning #h-bar() Deep Learning],
+)
+
+#cv-section("Functional & Business Skills")
+
+#cv-skill(
+  type: [Business],
+  info: [Commercial proposal writing #h-bar() Client relations #h-bar() Market and ecosystem knowledge],
+)
+
+#cv-skill(
+  type: [Decentralized Finance],
+  info: [Stablecoins #h-bar() DeFi protocols #h-bar() Private key security #h-bar() Bridge with traditional finance],
+)
+
+#cv-skill(
+  type: [CBDC & Market Infrastructure],
+  info: [Crypto-euro implications #h-bar() Target2 & Target2 Securities #h-bar() PvP & DvP],
+)
+
+#cv-skill(
+  type: [Audit],
+  info: [Smart contract audits #h-bar() Blockchain technology audits #h-bar() Blockchain startups & fintech audits #h-bar() Financial audit],
+)
+
+#cv-section("Languages")
+
+#cv-skill(
+  type: [French],
+  info: [Native],
+)
+
+#cv-skill(
+  type: [English],
+  info: [Proficient (TOEIC: 935)],
 )

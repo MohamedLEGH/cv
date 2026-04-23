@@ -5,25 +5,46 @@
 #cv-section("Formation")
 
 #cv-entry(
-  title: [Master en Science des Données],
-  society: [Université de Californie à Los Angeles],
-  date: [2018 - 2020],
-  location: [USA],
-  logo: image("../assets/logos/ucla.png"),
+  title: [Doctorat],
+  society: [Sorbonne Université, LIP6],
+  logo: image("../assets/logos/LogoLIP6.png"),
+  date: [2023 - 2026],
+  location: [Paris],
   description: list(
-    [Thèse : Prédiction du taux de désabonnement des clients dans l'industrie des télécommunications en utilisant des algorithmes d'apprentissage automatique et l'analyse de réseau],
-    [Cours : Systèmes et technologies Big Data #h-bar() Exploration et exploitation de données #h-bar() Traitement du langage naturel],
+    [Sujet de thèse : Protocoles pair à pair pour un apprentissage décentralisé efficace et résilient],
   ),
 )
 
 #cv-entry(
-  title: [Bachelors en Informatique],
-  society: [Université de Californie à Los Angeles],
-  date: [2014 - 2018],
-  location: [USA],
-  logo: image("../assets/logos/ucla.png"),
+  title: [Diplôme d'Ingénieur],
+  society: [Polytech Sorbonne],
+  logo: image("../assets/logos/Logo_Reseau_Polytech.png"),
+  date: [2015 - 2018],
+  location: [Paris],
   description: list(
-    [Thèse : Exploration de l'utilisation des algorithmes d'apprentissage automatique pour la prédiction des prix des actions : une étude comparative des modèles de régression et de séries chronologiques],
-    [Cours : Systèmes de base de données #h-bar() Réseaux informatiques #h-bar() Génie logiciel #h-bar() Intelligence artificielle],
+    [Spécialité Mathématiques Appliquées et Informatique Numérique],
+    [Cours : Statistiques #h-bar() Équations différentielles #h-bar() Programmation #h-bar() Structures de données #h-bar() Parallélisme],
+  ),
+)
+
+#cv-entry(
+  title: [Semestre Erasmus],
+  society: [TU Delft],
+  logo: image("../assets/logos/TU.png"),
+  date: [Hiver 2017],
+  location: [Pays-Bas],
+  description: list(
+    [Cours : Théorie des graphes #h-bar() Cryptographie #h-bar() Blockchain #h-bar() Cloud Computing #h-bar() Visualisation de données],
+  ),
+)
+
+#cv-entry(
+  title: [PeiP (Parcours des écoles d'ingénieurs Polytech)],
+  society: [Polytech Sorbonne],
+  logo: image("../assets/logos/PEIP_logo.png"),
+  date: [2013 - 2015],
+  location: [Paris],
+  description: list(
+    [Cours : Mathématiques #h-bar() Informatique #h-bar() Physique #h-bar() Chimie #h-bar() Mécanique],
   ),
 )

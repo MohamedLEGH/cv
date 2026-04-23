@@ -2,44 +2,37 @@
 #import "@preview/brilliant-cv:3.3.0": cv-section, cv-entry
 
 
-#cv-section("Projects & Associations")
+#cv-section("Volunteer Work")
 
 #cv-entry(
-  title: [Volunteer Data Analyst],
-  society: [ABC Nonprofit Organization],
-  date: [2019 - Present],
-  location: [New York, NY],
+  title: [Tutoring & Treasurer],
+  society: [Association Le Trait D'Union],
+  date: [Since 2018],
+  location: [Paris],
   description: list(
-    [Analyze donor and fundraising data to identify trends and opportunities for growth],
-    [Create data visualizations and dashboards to communicate insights to the board of directors],
-    [Collaborate with other volunteers to develop and implement data-driven strategies],
-    [Increased donation efficiency by 25% through predictive modeling],
+    [Homework help for middle and high school students],
+    [Grant application writing, treasurer],
   ),
-  tags: ("Volunteer Work", "Non-profit", "Social Impact"),
+)
+
+#cv-section("Hobbies")
+
+#cv-entry(
+  title: [Electronics],
+  society: [],
+  date: [],
+  location: [],
+  description: list(
+    [Retro gaming console with a Raspberry Pi, fan control via a transistor, ...],
+  ),
 )
 
 #cv-entry(
-  title: [Open Source Contributor],
-  society: [Python Data Science Libraries],
-  date: [2018 - Present],
-  location: [Remote],
+  title: [Socio-economic doctrines study],
+  society: [],
+  date: [],
+  location: [],
   description: list(
-    [Contributed to pandas, scikit-learn, and matplotlib projects],
-    [Fixed bugs, improved documentation, and added new features],
-    [Mentored new contributors during Google Summer of Code],
+    [Liberalism, Austrian school of economics, anarchism, technoethics, ...],
   ),
-  tags: ("Open Source", "Python", "Community"),
-)
-
-#cv-entry(
-  title: [Machine Learning Research Project],
-  society: [Personal Project],
-  date: [Summer 2020],
-  location: [Remote],
-  description: list(
-    [Developed a novel approach to time series forecasting using transformer architectures],
-    [Published research paper and open-sourced implementation on GitHub],
-    [Achieved 15% improvement over baseline models on benchmark datasets],
-  ),
-  tags: ("Research", "Deep Learning", "Time Series"),
 )
