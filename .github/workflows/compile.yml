@@ -1,0 +1,39 @@
+name: Compile CV to PDF
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Typst
+        uses: typst-community/setup-typst@v3
+
+      - name: Compile CVs
+        run: |
+          typst compile cv.typ cv_en.pdf
+          typst compile cv.typ cv_fr.pdf --input language=fr
+          typst compile cv.typ cv_de.pdf --input language=de
+          typst compile cv.typ cv_it.pdf --input language=it
+          typst compile cv.typ cv_zh.pdf --input language=zh
+
+      - name: Compile cover letter (English)
+        run: typst compile letter.typ letter_en.pdf
+
+      - name: Upload PDFs
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-pdfs
+          path: "*.pdf"
+
+      - name: Push PDFs to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f cv_en.pdf cv_fr.pdf cv_de.pdf cv_it.pdf cv_zh.pdf letter_en.pdf
+          git diff --cached --quiet || git commit -m "chore: compile PDFs [skip ci]"
+          git push
