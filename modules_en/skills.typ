@@ -41,12 +41,12 @@
 
 #cv-skill(
   type: [DevOps],
-  info: [Kubernetes #h-bar() Gitlab CI/CD #h-bar() GCP #h-bar() Terraform],
+  info: [Kubernetes #h-bar() Ansible #h-bar() Gitlab CI/CD #h-bar() GCP #h-bar() Terraform],
 )
 
 #cv-skill(
   type: [Tools],
-  info: [Shell #h-bar() Git #h-bar() Docker #h-bar() VS Code #h-bar() PowerPoint #h-bar() SLURM],
+  info: [Shell #h-bar() Git #h-bar() Docker #h-bar() VS Code #h-bar() SLURM],
 )
 
 #cv-skill(
